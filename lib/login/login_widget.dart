@@ -1000,7 +1000,7 @@ class _LoginWidgetState extends State<LoginWidget>
                             }
 
                             context.goNamedAuth(
-                                LoginWidget.routeName, context.mounted);
+                                TasksWidget.routeName, context.mounted);
                           },
                           text: 'Login',
                           options: FFButtonOptions(
